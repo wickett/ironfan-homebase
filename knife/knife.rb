@@ -65,12 +65,6 @@ ec2_image_info.merge!({
   })
 Chef::Log.debug("Loaded #{__FILE__}, now have #{ec2_image_info.size} ec2 images")
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> d0c3031aed631e590c6895671532388ee20e6273
 # Organization-specific settings -- Chef::Config[:ec2_image_info] and so forth
 #
 # This must do at least these things:
